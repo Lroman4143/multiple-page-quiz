@@ -1,10 +1,14 @@
 document.addEventListener("DOMContentLoaded",function(event){
-    var button = document.getElementById("button");
-    button.addEventListener("click",function(event){
+    var button1 = document.getElementById("button1");
+    button1.addEventListener("click",function(event){
         
-        window.open("https://multiple-page-quiz-geekwiselindseyroman.c9users.io/question2.html","_self");
+        window.open("http://geekwise-lindsey-roman.github.io/multiple-page-quiz/question2.html","_self");
     });
+    var button2 = document.getElementById("button2");
+    button2.addEventListener("click",function(event){
         
+        window.open("http://geekwise-lindsey-roman.github.io/multiple-page-quiz/question2.html","_self");
+    });  
     
     
 });
